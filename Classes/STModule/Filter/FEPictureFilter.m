@@ -113,7 +113,7 @@
     for (int i=0; i < length; i++) {
         //NSLog(@"%d -> iTrigger=%d",i, iTriggers[i]);
     }
-    [self setIntArray:iTriggers length:length forUniform:_triggersUniform program:filterProgram];
+    //[self setIntArray:iTriggers length:length forUniform:_triggersUniform program:filterProgram];
 }
 
 - (void) setTriggerValue:(int) iTrigger
